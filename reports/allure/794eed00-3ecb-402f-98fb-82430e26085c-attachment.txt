@@ -1,0 +1,3 @@
+
+▶ 테스트 시작: test_invalid_zone_id_handling
+✓ 테스트 완료: test_invalid_zone_id_handling

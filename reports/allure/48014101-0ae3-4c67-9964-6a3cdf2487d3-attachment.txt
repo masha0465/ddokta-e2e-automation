@@ -1,0 +1,2 @@
+
+▶ test_multiple_zone_images_accessible

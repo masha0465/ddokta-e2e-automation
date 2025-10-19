@@ -1,0 +1,338 @@
+{
+  "zones": [
+    {
+      "id": 23,
+      "name": "고봉",
+      "city": "고양시",
+      "status": "active"
+    },
+    {
+      "id": 80,
+      "name": "덕은동",
+      "city": "고양시",
+      "status": "active"
+    },
+    {
+      "id": 19,
+      "name": "식사동",
+      "city": "고양시",
+      "status": "active"
+    },
+    {
+      "id": 84,
+      "name": "향동동",
+      "city": "고양시",
+      "status": "active"
+    },
+    {
+      "id": 69,
+      "name": "곤지암읍",
+      "city": "광주시",
+      "status": "active"
+    },
+    {
+      "id": 72,
+      "name": "도척면",
+      "city": "광주시",
+      "status": "active"
+    },
+    {
+      "id": 70,
+      "name": "초월읍",
+      "city": "광주시",
+      "status": "active"
+    },
+    {
+      "id": 158,
+      "name": "탄벌동·장지동",
+      "city": "광주시",
+      "status": "active"
+    },
+    {
+      "id": 159,
+      "name": "태전동·고산동",
+      "city": "광주시",
+      "status": "active"
+    },
+    {
+      "id": 71,
+      "name": "퇴촌면",
+      "city": "광주시",
+      "status": "active"
+    },
+    {
+      "id": 25,
+      "name": "고촌‧풍무",
+      "city": "김포시",
+      "status": "active"
+    },
+    {
+      "id": 62,
+      "name": "고강본동‧고강1동",
+      "city": "부천시",
+      "status": "active"
+    },
+    {
+      "id": 63,
+      "name": "옥길동‧범박동",
+      "city": "부천시",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "고색‧오목천‧평리",
+      "city": "수원시",
+      "status": "active"
+    },
+    {
+      "id": 16,
+      "name": "광교1‧2동",
+      "city": "수원시",
+      "status": "active"
+    },
+    {
+      "id": 128,
+      "name": "당수동",
+      "city": "수원시",
+      "status": "active"
+    },
+    {
+      "id": 15,
+      "name": "대부도",
+      "city": "안산시",
+      "status": "active"
+    },
+    {
+      "id": 77,
+      "name": "스마트허브",
+      "city": "안산시",
+      "status": "active"
+    },
+    {
+      "id": 32,
+      "name": "공도‧원곡‧양성",
+      "city": "안성시",
+      "status": "active"
+    },
+    {
+      "id": 66,
+      "name": "금광‧서운‧미양‧보개",
+      "city": "안성시",
+      "status": "active"
+    },
+    {
+      "id": 65,
+      "name": "보개‧대덕‧양성‧고삼",
+      "city": "안성시",
+      "status": "active"
+    },
+    {
+      "id": 34,
+      "name": "일죽‧죽산‧삼죽",
+      "city": "안성시",
+      "status": "active"
+    },
+    {
+      "id": 31,
+      "name": "안양",
+      "city": "안양시",
+      "status": "active"
+    },
+    {
+      "id": 85,
+      "name": "안양9동",
+      "city": "안양시",
+      "status": "active"
+    },
+    {
+      "id": 125,
+      "name": "백석읍·광적면",
+      "city": "양주시",
+      "status": "active"
+    },
+    {
+      "id": 14,
+      "name": "옥정‧회천‧삼숭일원",
+      "city": "양주시",
+      "status": "active"
+    },
+    {
+      "id": 127,
+      "name": "은현면‧남면",
+      "city": "양주시",
+      "status": "active"
+    },
+    {
+      "id": 126,
+      "name": "장흥면",
+      "city": "양주시",
+      "status": "active"
+    },
+    {
+      "id": 174,
+      "name": "가남읍",
+      "city": "여주시",
+      "status": "active"
+    },
+    {
+      "id": 79,
+      "name": "북내‧강천",
+      "city": "여주시",
+      "status": "active"
+    },
+    {
+      "id": 78,
+      "name": "세종‧중앙‧오학·여흥",
+      "city": "여주시",
+      "status": "active"
+    },
+    {
+      "id": 83,
+      "name": "연천읍",
+      "city": "연천군",
+      "status": "active"
+    },
+    {
+      "id": 150,
+      "name": "남사읍·이동읍",
+      "city": "용인시",
+      "status": "active"
+    },
+    {
+      "id": 136,
+      "name": "초평동",
+      "city": "의왕시",
+      "status": "active"
+    },
+    {
+      "id": 148,
+      "name": "민락1지구",
+      "city": "의정부시",
+      "status": "active"
+    },
+    {
+      "id": 149,
+      "name": "민락2·고산지구",
+      "city": "의정부시",
+      "status": "active"
+    },
+    {
+      "id": 52,
+      "name": "율면",
+      "city": "이천시",
+      "status": "active"
+    },
+    {
+      "id": 40,
+      "name": "이천시내권",
+      "city": "이천시",
+      "status": "active"
+    },
+    {
+      "id": 43,
+      "name": "장호원",
+      "city": "이천시",
+      "status": "active"
+    },
+    {
+      "id": 53,
+      "name": "광탄면",
+      "city": "파주시",
+      "status": "active"
+    },
+    {
+      "id": 54,
+      "name": "운정4동",
+      "city": "파주시",
+      "status": "active"
+    },
+    {
+      "id": 9,
+      "name": "운정‧교하지구",
+      "city": "파주시",
+      "status": "active"
+    },
+    {
+      "id": 51,
+      "name": "탄현면",
+      "city": "파주시",
+      "status": "active"
+    },
+    {
+      "id": 18,
+      "name": "고덕국제신도시",
+      "city": "평택시",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "서탄면",
+      "city": "평택시",
+      "status": "active"
+    },
+    {
+      "id": 4,
+      "name": "현덕면",
+      "city": "평택시",
+      "status": "active"
+    },
+    {
+      "id": 37,
+      "name": "감일동",
+      "city": "하남시",
+      "status": "active"
+    },
+    {
+      "id": 20,
+      "name": "위례동",
+      "city": "하남시",
+      "status": "active"
+    },
+    {
+      "id": 33,
+      "name": "남양읍‧마도면",
+      "city": "화성시",
+      "status": "active"
+    },
+    {
+      "id": 67,
+      "name": "동탄신도시",
+      "city": "화성시",
+      "status": "active"
+    },
+    {
+      "id": 44,
+      "name": "봉담읍",
+      "city": "화성시",
+      "status": "active"
+    },
+    {
+      "id": 21,
+      "name": "향남1‧2신도시",
+      "city": "화성시",
+      "status": "active"
+    }
+  ],
+  "total_count": 52,
+  "cities": [
+    "고양시",
+    "광주시",
+    "김포시",
+    "부천시",
+    "수원시",
+    "안산시",
+    "안성시",
+    "안양시",
+    "양주시",
+    "여주시",
+    "연천군",
+    "용인시",
+    "의왕시",
+    "의정부시",
+    "이천시",
+    "파주시",
+    "평택시",
+    "하남시",
+    "화성시"
+  ]
+}
