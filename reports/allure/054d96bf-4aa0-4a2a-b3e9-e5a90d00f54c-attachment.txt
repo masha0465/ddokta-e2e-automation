@@ -1,0 +1,2 @@
+
+▶ test_all_zones_have_images

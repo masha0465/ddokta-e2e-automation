@@ -1,0 +1,3 @@
+Package: com.hyundai.shucle.gmaas
+Activity: com.hyundai.airlab.shucle.presenter.MainActivity
+Device: SM-S921N

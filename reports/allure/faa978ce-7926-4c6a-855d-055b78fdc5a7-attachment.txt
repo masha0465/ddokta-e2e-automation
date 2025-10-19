@@ -1,0 +1,68 @@
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.address`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.address` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.automotive`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.automotive` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.bank`.
+[35mDEBUG   [0m faker.factory:factory.py:86 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.barcode`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.barcode` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.color`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.color` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.company`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.company` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.credit_card` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.currency`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.currency` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.date_time`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.date_time` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.emoji` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.geo`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.geo` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.internet`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.internet` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.job`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.job` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.lorem`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.lorem` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.misc`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.misc` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.passport`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.passport` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.person`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.person` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.phone_number` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.sbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[35mDEBUG   [0m faker.factory:factory.py:76 Looking for locale `en_US` in provider `faker.providers.ssn`.
+[35mDEBUG   [0m faker.factory:factory.py:95 Provider `faker.providers.ssn` has been localized to `en_US`.
+[35mDEBUG   [0m faker.factory:factory.py:106 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:313 POST http://127.0.0.1:4724/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android", "appium:deviceName": "SM-S921N", "appium:appPackage": "com.hyundai.shucle.gmaas", "appium:appActivity": "com.hyundai.airlab.shucle.presenter.MainActivity", "appium:automationName": "UiAutomator2", "appium:noReset": true, "appium:fullReset": false, "appium:newCommandTimeout": 300, "appium:uiautomator2ServerLaunchTimeout": 60000}}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:241 Starting new HTTP connection (1): 127.0.0.1:4724
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4724 "POST /session HTTP/1.1" 200 0
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:329 Remote response: status=200 | data={"value":{"capabilities":{"platformName":"Android","deviceName":"R3CX405CR3K","appPackage":"com.hyundai.shucle.gmaas","appActivity":"com.hyundai.airlab.shucle.presenter.MainActivity","automationName":"UiAutomator2","noReset":true,"fullReset":false,"newCommandTimeout":300,"uiautomator2ServerLaunchTimeout":60000,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","deviceName":"SM-S921N","appPackage":"com.hyundai.shucle.gmaas","appActivity":"com.hyundai.airlab.shucle.presenter.MainActivity","automationName":"UiAutomator2","noReset":true,"fullReset":false,"newCommandTimeout":300,"uiautomator2ServerLaunchTimeout":60000},"deviceUDID":"R3CX405CR3K","pixelRatio":"3","statBarHeight":91,"viewportRect":{"left":0,"top":91,"width":1080,"height":2249},"deviceApiLevel":36,"platformVersion":"16","deviceManufacturer":"samsung","deviceModel":"SM-S921N","deviceScreenSize":"1080x2340","deviceScreenDensity":480},"sessionId":"167a94b9-1a7a-4ac6-a2e1-bcc18cfa194d"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1135', 'ETag': 'W/"46f-mbiYAiHmBCQoGfx61zUlRioHiiI"', 'Date': 'Sun, 19 Oct 2025 09:25:02 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:356 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:313 POST http://127.0.0.1:4724/session/167a94b9-1a7a-4ac6-a2e1-bcc18cfa194d/timeouts {"implicit": 10000}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4724 "POST /session/167a94b9-1a7a-4ac6-a2e1-bcc18cfa194d/timeouts HTTP/1.1" 200 0
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:329 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 19 Oct 2025 09:25:02 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:356 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:313 POST http://127.0.0.1:4724/session/167a94b9-1a7a-4ac6-a2e1-bcc18cfa194d/execute/sync {"script": "mobile: getCurrentActivity", "args": []}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4724 "POST /session/167a94b9-1a7a-4ac6-a2e1-bcc18cfa194d/execute/sync HTTP/1.1" 200 0
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:329 Remote response: status=200 | data={"value":"com.hyundai.airlab.shucle.presenter.MainActivity"} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '60', 'ETag': 'W/"3c-7P42LQmd//UPD038fP3Nldr42ZU"', 'Date': 'Sun, 19 Oct 2025 09:25:02 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:356 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:313 POST http://127.0.0.1:4724/session/167a94b9-1a7a-4ac6-a2e1-bcc18cfa194d/execute/sync {"script": "mobile: getCurrentPackage", "args": []}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4724 "POST /session/167a94b9-1a7a-4ac6-a2e1-bcc18cfa194d/execute/sync HTTP/1.1" 200 0
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:329 Remote response: status=200 | data={"value":"com.hyundai.shucle.gmaas"} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '36', 'ETag': 'W/"24-QcubMU/J36uNmyX/uwCeNtM5b9I"', 'Date': 'Sun, 19 Oct 2025 09:25:02 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:356 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:313 POST http://127.0.0.1:4724/session/167a94b9-1a7a-4ac6-a2e1-bcc18cfa194d/execute/sync {"script": "mobile: getCurrentPackage", "args": []}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4724 "POST /session/167a94b9-1a7a-4ac6-a2e1-bcc18cfa194d/execute/sync HTTP/1.1" 200 0
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:329 Remote response: status=200 | data={"value":"com.hyundai.shucle.gmaas"} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '36', 'ETag': 'W/"24-QcubMU/J36uNmyX/uwCeNtM5b9I"', 'Date': 'Sun, 19 Oct 2025 09:25:02 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:356 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:313 DELETE http://127.0.0.1:4724/session/167a94b9-1a7a-4ac6-a2e1-bcc18cfa194d {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:544 http://127.0.0.1:4724 "DELETE /session/167a94b9-1a7a-4ac6-a2e1-bcc18cfa194d HTTP/1.1" 200 0
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:329 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Sun, 19 Oct 2025 09:25:03 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:356 Finished Request

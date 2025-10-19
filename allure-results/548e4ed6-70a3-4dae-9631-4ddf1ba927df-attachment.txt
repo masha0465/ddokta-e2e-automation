@@ -1,0 +1,2 @@
+
+▶ test_get_zone_operation_with_various_zones

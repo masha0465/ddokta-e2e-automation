@@ -45,17 +45,35 @@ class TestZoneOperations:
         assert all(r is not None for r in results), "None 응답이 존재합니다"
         
     def test_zone_operation_response_structure(self, api_client):
-        """Zone 운영 정보 응답 구조 검증"""
+        """Zone 운영 정보 응답 구조 검증 - 실제 API 응답 기반"""
         # Given: 특정 zone_id
         zone_id = 67  # 동탄신도시
         
         # When: Zone 운영 정보 조회
         response = api_client.get_zone_operation_info(zone_id)
         
-        # Then: 응답 구조 검증 (실제 API 응답 구조에 맞게 수정 필요)
+        # Then: 실제 API 응답 구조 검증
         assert response is not None
-        # TODO: Charles에서 실제 응답 확인 후 필드 검증 추가
-        # 예상 필드: zone_id, operation_status, operating_hours 등
+        
+        # 필수 필드 검증
+        assert "zone_id" in response
+        assert "zone_name" in response
+        assert "city" in response
+        assert "image_url" in response
+        assert "operation_hours" in response
+        assert "vehicle_count" in response
+        assert "drt_type" in response
+        assert "routes" in response
+        assert "grpc_status" in response
+        
+        # 데이터 타입 검증
+        assert isinstance(response["zone_id"], int)
+        assert isinstance(response["vehicle_count"], int)
+        assert isinstance(response["routes"], list)
+        assert response["grpc_status"] == 0
+        
+        # 이미지 URL 형식 검증
+        assert response["image_url"].startswith("https://d1fxl86ei6civ0.cloudfront.net/zone_images/")
         
     @pytest.mark.smoke
     def test_zone_operation_response_time(self, api_client):
@@ -92,20 +110,23 @@ class TestZoneImageUrls:
     """Zone 이미지 URL 검증 테스트"""
     
     def test_zone_image_url_format(self, api_client):
-        """Zone 이미지 URL 형식 검증"""
-        # Given: Zone 목록 조회
-        zones_response = api_client.list_simple_zones()
+        """Zone 이미지 URL 형식 검증 - CloudFront CDN"""
+        # Given: Zone 운영 정보 조회
+        zone_id = 67  # 동탄신도시
+        response = api_client.get_zone_operation_info(zone_id)
         
-        # When: 첫 번째 Zone의 이미지 URL 확인
-        # TODO: 실제 응답 구조에 맞게 수정
-        # 예상: zones_response['zones'][0]['image_url']
+        # When: 이미지 URL 확인
+        image_url = response.get("image_url")
         
         # Then: CloudFront URL 형식 검증
+        assert image_url is not None
         expected_pattern = "https://d1fxl86ei6civ0.cloudfront.net/zone_images/"
-        # assert image_url.startswith(expected_pattern)
+        assert image_url.startswith(expected_pattern)
+        assert str(zone_id) in image_url
+        assert image_url.endswith(".png")
         
     def test_multiple_zone_images_accessible(self, api_client):
-        """여러 Zone 이미지 접근 가능 여부 테스트"""
+        """여러 Zone 이미지 URL 존재 여부 테스트"""
         # Given: 여러 Zone ID
         zone_ids = [2, 67, 9, 20, 18]
         
@@ -113,4 +134,47 @@ class TestZoneImageUrls:
         for zone_id in zone_ids:
             response = api_client.get_zone_operation_info(zone_id)
             assert response is not None
-            # TODO: 이미지 URL 필드 확인 및 검증
+            assert "image_url" in response
+            assert "d1fxl86ei6civ0.cloudfront.net" in response["image_url"]
+    
+    def test_zone_operation_hours_format(self, api_client):
+        """Zone 운영 시간 형식 검증"""
+        # Given: Zone 운영 정보 조회
+        zone_id = 25  # 김포 고촌풍무
+        response = api_client.get_zone_operation_info(zone_id)
+        
+        # When: 운영 시간 확인
+        operation_hours = response.get("operation_hours")
+        
+        # Then: 시간 형식 검증 (HH:MM~HH:MM)
+        assert operation_hours is not None
+        assert "~" in operation_hours
+        assert ":" in operation_hours
+        
+    def test_zone_vehicle_count(self, api_client):
+        """Zone 차량 대수 검증"""
+        # Given: Zone 운영 정보 조회
+        zone_id = 67
+        response = api_client.get_zone_operation_info(zone_id)
+        
+        # When: 차량 대수 확인
+        vehicle_count = response.get("vehicle_count")
+        
+        # Then: 차량 대수가 양수
+        assert vehicle_count is not None
+        assert isinstance(vehicle_count, int)
+        assert vehicle_count > 0
+        
+    def test_zone_routes_exist(self, api_client):
+        """Zone 노선 정보 존재 확인"""
+        # Given: Zone 운영 정보 조회
+        zone_id = 25
+        response = api_client.get_zone_operation_info(zone_id)
+        
+        # When: 노선 정보 확인
+        routes = response.get("routes")
+        
+        # Then: 노선이 최소 1개 이상
+        assert routes is not None
+        assert isinstance(routes, list)
+        assert len(routes) > 0
